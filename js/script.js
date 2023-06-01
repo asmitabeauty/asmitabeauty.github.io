@@ -1,4 +1,4 @@
 
 $(document).ready(function() {
-  $("#year").innerText = new Date().getFullYear()
+  document.getElementById("year").innerText = new Date().getFullYear()
 }
